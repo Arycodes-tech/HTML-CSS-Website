@@ -47,7 +47,7 @@ nav{
     color: #1b1b1b;
 }
 .center{
-    background: url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat;
+    background: url(https://wallpapers.com/images/hd/yellow-and-orange-background-08zqzjyw1h8z0u3w.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -101,40 +101,39 @@ nav{
     font-size: 38px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 10px;
-    color: #2a20ad7e;
-    padding: 8px 15px;  
+    color: white; 
 }
 .tagline{
     font-style: italic;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 10px;
-    color: #555;
+    color: white;
 }
 .introduction{
-    font-size: 25px;
-    color:  rgb(28, 28, 143);
+    font-size: 30px;
+    color: #333;
     font-style: normal;
     font-family: Arial, sans-serif;
+    margin-top: 160px;
 }
 .target-audience{
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
-    color:  rgb(28, 28, 143);
+    color: #333;
     font-family: Arial, sans-serif;
 }
 .Features{
     padding: 6%;
     background-color: #f4f4f4;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 105px;
 }
 .Features h2{
     font-size: 30px;
     display: inline block;
     color: #333;
     margin-bottom: 6px;
+    width: 25%;
 }
 .Features ul{
     font-size: 25px;
@@ -148,10 +147,234 @@ nav{
 .bgi{
     position: relative;
     max-width: 100%;
-    display: inline;
+    display: inline-block;
+    width: 80px 0;
+    text-align: center;
+    margin-top: 105px auto;
+    justify-content: center;
+    padding-left: 110px;
+}
+.forward{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: right;
+    background: #fff;
+    color: #1b1b1b;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.header-container{
+    background-color: rgb(241, 87, 31);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    
+}
+.foot{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+}
+.introduction::first-line{
+    color: rgb(241, 87, 31);
+}
+.introduction::first-letter{
+    line-height: 1.6em;
+}
+
+.contact-header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(241, 87, 31); 
+    color: white;
+}
+
+.contact-header h1{
+    margin: 0;
+    font-size: 38px;
+}
+
+.contact-header .tagline{
+    font-style: italic;
+    font-size: 18px ;
+}
+
+.contact-form-section{
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-section h2{
+    margin-bottom: 20px;
+    color: rgb(241, 87, 31);
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label{
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 2px;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+    background-color: rgb(241, 87, 31);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 2px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: rgb(241, 87, 31);
+}
+
+.contact-info{
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    margin-top: 20px;
+}
+
+.contact-info h2{
+    color: rgb(241, 87, 31);
+}
+
+.contact-info a {
+    color: rgb(241, 87, 31);
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
 }
 
 
+.services-header{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(241, 87, 31);
+    color: white;
+}
+
+.services-header h1{
+    font-size: 38px;
+}
+
+.services-header .tagline{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.services-intro{
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.services-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.service-item{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover{
+    transform: scale(1.05);
+}
+
+.service-item h2{
+    color: rgb(241, 87, 31);
+    margin-bottom: 15px;
+}
+
+.service-item p{
+    font-size: 18px;
+    color: #555;
+}
+
+.cta-section{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(241, 87, 31);
+    color: white;
+    margin-top: 20px;
+}
+
+.cta-section p{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(241, 87, 31);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover{
+    background-color: rgb(241, 87, 31);
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+}
 
 
 
