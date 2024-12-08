@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-        <div class="menu">
-            <div class="logo">
-                <a href="#">Logo</a>
-            </div>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </div>
-      </nav>
-    <form class="contacts">
-      <div class="contact_content">
-        <label for="">Select your Gender</label>
-        <input type="checkbox" name="" id="" />
-        <input type="checkbox" name="" id="" />
-        <input type="text" />
-        <input type="date" name="" id="" />
-        <input type="datetime-local" name="" id="" />
-        <input type="email" name="" id="" />
-        <input type="file" name="" id="" />
-        <input type="time" name="" id="" />
-        <input type="tel" name="" id="" />
-        <input type="number" />
-      </div>
-      <button type="submit">Submit</button>
-    </form>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="contact-header">
+        <h1>Get Connected</h1>
+        <p class="tagline">We are here to help you on your web development journey.</p>
+    </header>
+
+    <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form class="Contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" cols="25" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Other Ways to Reach Us</h2>
+        <p>Email: <a href="mailto:support@learnhtmlcss.com">support@learnhtmlcss.com</a></p>
+        <p>Phone: +234 456 7890</p>
+        <p>Follow us: 
+            <a href="#" class="social-link">Twitter</a>  
+            <a href="#" class="social-link">Facebook</a> 
+            <a href="#" class="social-link">Instagram</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Thank you for reaching out! We aim to respond to all messages within 24-48 hours.</p>
+    </footer>
+</body>
 </html>
